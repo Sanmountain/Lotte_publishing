@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+.wrap .subVisual img {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+.subVisual .subTit {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.subVisual .subTit h2 {
+  margin-bottom: 20px;
+  font-size: 39px;
+  font-weight: 700;
+  color: white;
+}
+.subVisual .subTit p {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+.clearfix::before {
+  content: "";
+  display: block;
+}
+.subMain {
+  min-height: calc(100%-100px);
+  padding-bottom: 100px;
+}
+.subMain .inner {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+.subMain .conTab {
+  padding-top: 80px;
+  vertical-align: top;
+}
+.subMain .conTab h3 {
+  width: 100%;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+.subMain .conTab ul {
+  margin-top: 30px;
+}
+.subMain .conTab ul li.active a {
+  background-color: #ed1d24;
+  color: white;
+}
+.subMain .conTab > ul > li > a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  padding-left: 10px;
+}
+
+.subMain .conWrap {
+  padding: 70px 0 180px 80px;
+  width: calc(100% - 220px);
+  vertical-align: top;
+}
+.subMain .conWrapActivity {
+  padding: 70px 0 180px 80px;
+  width: calc(100% - 220px);
+  vertical-align: top;
+}
+.subMain .conWrapHistory {
+  padding: 70px 0 180px 80px;
+  width: calc(100% - 420px);
+}
+.subMain .conWrapHistory img {
+  width: 90%;
+}
+.subMain .conWrap .map_marker {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+p {
+  margin-top: 20px;
+}
+.subMain .conWrap p {
+  font-weight: 700;
+  color: #000000;
+}
+.subMain .conWrap #map {
+  width: 100%;
+  height: 500px;
+}
+.subMain .conWrap p .far {
+  margin-right: 10px;
+}
+.subMain .conWrap .lead {
+  font-weight: 700;
+  color: #000000;
+}
+.subMain .conWrap .lead .far {
+  margin-right: 10px;
+}
+.carName {
+  color: red;
+  display: inline-block;
+  font-weight: 900;
+}
+
+.subMain .conWrap .container h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 2%;
+  margin-bottom: 10px;
+}
+.subMain .conWrap .container .form-group .custom-select {
+  background-color: #f4f4f4;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+@media (max-width: 767px) {
+  html,
+  body {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .container {
+    height: calc(100%-450px);
+  }
+  .wrap .subVisual img {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+  .subVisual .subTit {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -140%);
+    width: 100%;
+    text-align: center;
+  }
+  .subVisual .subTit h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+  }
+  .subVisual .subTit p {
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+  }
+
+  .clearfix::before {
+    content: "";
+    display: block;
+  }
+  .subMain .inner {
+    display: block;
+    justify-content: center;
+    margin: 0;
+    /* width: 100%; */
+  }
+  .subMain .conTab {
+    display: none;
+    margin: 0;
+    padding-top: 15px;
+    width: 176px;
+    text-align: center;
+    /* vertical-align: top; */
+  }
+  .subMain .conTab h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .subMain .conTab ul {
+    margin-top: 30px;
+  }
+  .subMain .conTab ul li.active a {
+    background-color: #ed1d24;
+    color: white;
+  }
+  .subMain .conTab > ul > li > a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+  }
+
+  .subMain .conWrap {
+    padding: 0;
+    width: 100%;
+    height: 500px;
+  }
+  .subMain .conWrap img {
+    padding: 0;
+    width: 30%;
+    height: 800px;
+  }
+  .subMain .conWrap .adm_button {
+    margin-left: -50%;
+  }
+  .subMain .conWrap .imgHrStatus {
+    padding: 0;
+    width: 90%;
+    height: 200%;
+  }
+  .subMain .conWrap .container h2 {
+    font-size: 1rem;
+    margin-left: 2%;
+  }
+  .subMain .conWrap .container .form-group .custom-select {
+    background-color: #f4f4f4;
+    width: 30%;
+    margin-left: 1%;
+  }
+  .subMain .conWrapActivity {
+    padding: 0.5%;
+    width: 100%;
+    height: 500px;
+  }
+  .subMain .conWrapHistory {
+    padding: 2%;
+  }
+  .subMain .conWrapHistory img {
+    padding: 0;
+    width: 37%;
+  }
+  .subMain .conWrap .map_marker {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+  p {
+    margin-top: 20px;
+  }
+  .carName {
+    color: red;
+    display: inline-block;
+    font-weight: 900;
+  }
+  .subMain .conWrap p {
+    font-weight: 700;
+    color: #000000;
+    font-size: 0.9rem;
+    padding-top: 10px;
+  }
+  .subMain .conWrap #map {
+    width: 100%;
+    height: 73%;
+  }
+  .subMain .conWrap p .far {
+    margin-right: 10px;
+  }
+  .subMain .conWrap .lead {
+    font-weight: 700;
+    color: #000000;
+    font-size: 0.5rem;
+    padding-top: 10px;
+  }
+  .subMain .conWrap .lead .far {
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* 테블릿 세로 */
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  ul,
+  ol,
+  li {
+    list-style: none;
+  }
+  .container {
+    min-height: calc(100%-550px);
+  }
+  .wrap .subVisual img {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px;
+  }
+  .subVisual .subTit {
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
+  .subVisual .subTit h2 {
+    margin-bottom: 20px;
+    font-size: 39px;
+    font-weight: 700;
+    color: white;
+  }
+  .subVisual .subTit p {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+  }
+
+  .clearfix::before {
+    content: "";
+    display: block;
+  }
+  .subMain .inner {
+    display: flex;
+    justify-content: left;
+    margin: 0 auto;
+    width: 220%;
+  }
+  .subMain .conTab {
+    padding-top: 50px;
+    padding-left: 3%;
+    height: calc(100%-550px);
+    vertical-align: top;
+  }
+  .subMain .contabGongdong {
+    display: none;
+  }
+  .subMain .conTab h3 {
+    width: 110%;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .subMain .conTab ul {
+    margin-top: 30px;
+  }
+  .subMain .conTab ul li.active a {
+    background-color: #ed1d24;
+    color: white;
+  }
+  .subMain .conTab > ul > li > a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+  }
+
+  .subMain .conWrap {
+    padding: 0 0 100px 10px;
+    width: calc(100% - 100px);
+    vertical-align: top;
+  }
+  .subMain .conWrap img {
+    width: 35%;
+    padding: 2%;
+  }
+  .subMain .conWrap .imgHrStatus {
+    width: 100%;
+    padding: 2%;
+  }
+  .subMain .conWrapActivity {
+    padding: 70px 0 180px 80px;
+    width: calc(100% - 220px);
+    height: calc(100%-550px);
+    vertical-align: top;
+  }
+  .subMain .conWrapHistory {
+    padding: 30px 0 30px 30px;
+    /* width: calc(100% - 420px); */
+  }
+  .subMain .conWrapHistory img {
+    width: 80%;
+  }
+  .subMain .conWrap .map_marker {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+  }
+  p {
+    margin-top: 20px;
+  }
+  .subMain .conWrap p {
+    font-weight: 700;
+    color: #000000;
+    margin-top: 20px;
+  }
+  .subMain .conWrap #map {
+    width: 100%;
+    height: 500px;
+  }
+  .subMain .conWrap p .far {
+    margin-right: 10px;
+  }
+  .subMain .conWrap .lead {
+    font-weight: 700;
+    padding-top: 2%;
+    color: #000000;
+  }
+  .subMain .conWrap .lead .far {
+    margin-right: 10px;
+  }
+  .carName {
+    color: red;
+    display: inline-block;
+    font-weight: 900;
+  }
+
+  .subMain .conWrap .container h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 2%;
+  }
+  .subMain .conWrap .container .form-group .custom-select {
+    background-color: #f4f4f4;
+    width: 30%;
+    margin-left: 2%;
+    border: 1px solid black;
+  }
+}

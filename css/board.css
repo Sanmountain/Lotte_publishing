@@ -1,0 +1,672 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+ul,
+li {
+  list-style: none;
+}
+
+.subMain .inner .conWrap {
+  float: left;
+  padding: 70px 0 180px 80px;
+  width: calc(100% - 220px);
+  vertical-align: top;
+}
+.subMain .inner .conWrap .box {
+  text-align: right;
+  width: 100%;
+}
+.subMain .inner .conWrap .box .container-4 {
+  margin-right: 2%;
+  display: block;
+  text-align: right;
+}
+.subMain .inner .conWrap #boardHeader {
+  background-color: #f4f4f4;
+  height: 35px;
+}
+.subMain .inner .conWrap #boardHeader .boardNum {
+  margin-top: 0;
+}
+.subMain .inner .conWrapActivity .boardHeaderLine {
+  border-top: 2px solid red;
+  width: 100%;
+}
+.subMain .inner .conWrapActivity .boardHeaderLine2 {
+  border-top: 1px solid silver;
+  width: 100%;
+}
+#boardHeader {
+  height: 35px;
+  display: flex;
+  width: 100%;
+
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+#boardHeader :nth-child(1) {
+  width: 8%;
+}
+#boardHeader :nth-child(2) {
+  width: 45%;
+}
+#boardHeader :nth-child(3) {
+  width: 15%;
+}
+#boardHeader :nth-child(4) {
+  width: 15%;
+}
+#boardHeader :nth-child(5) {
+  width: 10%;
+}
+
+.boardObject {
+  height: 35px;
+  display: flex;
+  width: 100%;
+
+  text-align: center;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+.boardObject :nth-child(1) {
+  width: 8%;
+}
+.boardObject :nth-child(2) {
+  width: 45%;
+}
+.boardObject :nth-child(3) {
+  width: 15%;
+}
+.boardObject :nth-child(4) {
+  width: 15%;
+}
+.boardObject :nth-child(5) {
+  width: 10%;
+}
+
+.pagePart {
+  display: flex;
+}
+
+.page_wrap {
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.page_wrapActivity {
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.page_nation {
+  display: inline-block;
+}
+.page_nation a {
+  display: block;
+  margin: 0 3px;
+  float: left;
+  border: 1px solid #e6e6e6;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+  border-radius: 15%;
+  font-weight: 600;
+}
+.page_nation a:hover {
+  border: 1px solid red;
+  background-color: red;
+}
+
+.boardWriteBtn {
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 70px;
+  border: 1px solid red;
+  font-weight: 600;
+  border-radius: 15%;
+}
+.boardWriteBtnAct {
+  background-color: red;
+  color: white;
+  height: 40px;
+  width: 70px;
+  border: 1px solid red;
+  font-weight: 600;
+  border-radius: 15%;
+}
+
+.container-4 #keyInput {
+  width: 200px;
+  height: 38px;
+  background: white;
+  border: 1px solid silver;
+  font-size: 10pt;
+  padding-left: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.container-4 #keyBtn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: red;
+  height: 38px;
+  width: 50px;
+  color: white;
+  opacity: 1;
+  font-size: 10pt;
+  margin-left: -10px;
+  border: 1px solid red;
+}
+.container-4 #keyBtn i {
+  font-style: normal;
+  font-weight: 900 !important;
+}
+
+.picWrap {
+  padding-top: 20px;
+}
+.picWrap .item {
+  display: inline-block;
+  /* width: 30%; */
+  padding-right: 3%;
+  padding-bottom: 3%;
+}
+.picWrapPur {
+  padding-top: 3%;
+  height: 55%;
+  width: 100%;
+}
+.picWrapPur .item {
+  display: inline-block;
+  /* width: 30%; */
+  padding-right: 3%;
+  padding-bottom: 3%;
+}
+.picWrapPur .item .photoImage img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  html,
+  body {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .container {
+    height: calc(100%-450px);
+  }
+  .subMain .inner .conWrap {
+    float: left;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: -200px;
+    width: 30%;
+    height: calc(100%-200px);
+  }
+  .subMain .inner .conWrap .box {
+    text-align: right;
+    width: 100%;
+  }
+  .subMain .inner .conWrap .box .container-4 {
+    margin-right: 2%;
+    display: block;
+    text-align: right;
+  }
+  .subMain .inner .conWrap #boardHeader {
+    background-color: #f4f4f4;
+    height: 30px;
+    width: 100%;
+  }
+  .subMain .inner .conWrap #boardHeader .boardNum {
+    margin-top: 0;
+  }
+
+  .subMain .inner .conWrapActivity .boardHeaderLine {
+    border-top: 2px solid red;
+    width: 28%;
+    margin-left: 2%;
+  }
+  .subMain .inner .conWrapActivity .boardHeaderLine2 {
+    border-top: 1px solid silver;
+    width: 28%;
+    margin-left: 2%;
+  }
+  #boardHeader {
+    height: 28px;
+    display: flex;
+    width: 100%;
+
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+  }
+  #boardHeader :nth-child(1) {
+    width: 8%;
+  }
+  #boardHeader :nth-child(2) {
+    width: 8%;
+  }
+  #boardHeader :nth-child(3) {
+    width: 7%;
+  }
+  #boardHeader :nth-child(4) {
+    width: 3%;
+  }
+  #boardHeader :nth-child(5) {
+    width: 5%;
+  }
+
+  .boardObject {
+    height: 35px;
+    display: flex;
+    width: 28%;
+    margin-left: 2%;
+
+    font-size: 0.5rem;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid silver;
+  }
+  .boardObject :nth-child(1) {
+    width: 13%;
+  }
+  .boardObject :nth-child(2) {
+    width: 40%;
+  }
+  .boardObject :nth-child(3) {
+    width: 18%;
+  }
+  .boardObject :nth-child(4) {
+    width: 18%;
+  }
+  .boardObject :nth-child(5) {
+    width: 10%;
+  }
+
+  .pagePart {
+    display: flex;
+  }
+
+  .page_wrap {
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 5%;
+  }
+  .page_wrapActivity {
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 16%;
+  }
+  .page_nation {
+    display: inline-block;
+  }
+  .page_nation a {
+    display: block;
+    margin: 0 3px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 11px;
+    color: black;
+    text-decoration: none;
+    border-radius: 15%;
+    font-weight: 600;
+  }
+  .page_nation a:hover {
+    border: 1px solid red;
+    background-color: red;
+  }
+
+  .boardWriteBtn {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 55px;
+    border: 1px solid red;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 15%;
+  }
+  .boardWriteBtnAct {
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 55px;
+    border: 1px solid red;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 15%;
+    padding-top: 10%;
+    margin-top: 340%;
+  }
+
+  .container-4 #keyInput {
+    width: 150px;
+    height: 30px;
+    background: white;
+    border: 1px solid silver;
+    font-size: 10pt;
+    padding-left: 15px;
+    margin-left: 8%;
+    margin-top: 1%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .container-4 #keyBtn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: red;
+    height: 30px;
+    width: 50px;
+    color: white;
+    opacity: 1;
+    font-size: 10pt;
+    margin-left: -10px;
+    padding-bottom: 2px;
+    border: 1px solid red;
+  }
+  .container-4 #keyBtn i {
+    font-style: normal;
+    font-weight: 900 !important;
+  }
+
+  .picWrap {
+    padding-top: 1%;
+    height: 40%;
+    width: 35%;
+  }
+  .picWrap .item {
+    display: inline-block;
+    /* width: 30%; */
+    padding-left: 6%;
+    padding-right: 5px;
+    padding-bottom: 3%;
+  }
+  .picWrap .item .photoImage {
+    width: 90%;
+    padding: 0;
+    height: 170px;
+    margin: 0;
+  }
+  .picWrap .item .photoImage img {
+    width: 90%;
+    height: 160px;
+  }
+
+  .picWrapPur {
+    padding-top: 1%;
+    width: 50%;
+  }
+  .picWrapPur ul {
+    width: 55%;
+  }
+  .picWrapPur .item {
+    display: inline-block;
+    width: 10%;
+    margin-left: 1%;
+    margin-right: 10%;
+  }
+  .picWrapPur .item .photoImage {
+    width: 90%;
+    padding: 0;
+    height: 170px;
+    margin: 0;
+  }
+  .picWrapPur .item .photoImage img {
+    width: 10%;
+    height: 20%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* 테블릿 세로 */
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .container {
+    height: calc(100%-450px);
+    width: 100%;
+  }
+  .subMain .inner .conWrap {
+    float: left;
+    padding: 2%;
+    width: 30%;
+    height: calc(100%-250px);
+  }
+
+  .subMain .inner .conWrap .box {
+    text-align: right;
+    width: 100%;
+  }
+  .subMain .inner .conWrap .box .container-4 {
+    margin-right: 2%;
+    display: block;
+    text-align: right;
+  }
+  .subMain .inner .conWrap #boardHeader {
+    background-color: #f4f4f4;
+    height: 30px;
+    width: 100%;
+  }
+  .subMain .inner .conWrap #boardHeader .boardNum {
+    margin-top: 0;
+  }
+  .subMain .inner .conWrapActivity {
+    padding-left: 2%;
+    padding-top: 40px;
+    width: 60%;
+  }
+  .subMain .inner .conWrapActivity .boardHeaderLine {
+    border-top: 2px solid red;
+    width: 53%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  .subMain .inner .conWrapActivity .boardHeaderLine2 {
+    border-top: 1px solid silver;
+    width: 53%;
+    margin-left: 2%;
+  }
+  #boardHeader {
+    height: 28px;
+    display: flex;
+    width: 95%;
+
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+  }
+  #boardHeader :nth-child(1) {
+    width: 11%;
+  }
+  #boardHeader :nth-child(2) {
+    width: 19%;
+  }
+  #boardHeader :nth-child(3) {
+    width: 12%;
+  }
+  #boardHeader :nth-child(4) {
+    width: 8%;
+  }
+  #boardHeader :nth-child(5) {
+    width: 7%;
+  }
+
+  .boardObject {
+    height: 35px;
+    display: flex;
+    width: 53%;
+    margin-left: 2%;
+
+    font-size: 0.5rem;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid silver;
+  }
+  .boardObject :nth-child(1) {
+    width: 13%;
+  }
+  .boardObject :nth-child(2) {
+    width: 40%;
+  }
+  .boardObject :nth-child(3) {
+    width: 18%;
+  }
+  .boardObject :nth-child(4) {
+    width: 18%;
+  }
+  .boardObject :nth-child(5) {
+    width: 10%;
+  }
+
+  .pagePart {
+    display: flex;
+  }
+
+  .page_wrap {
+    width: 30%;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+  .page_wrapActivity {
+    width: 30%;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 5%;
+  }
+  .page_nation {
+    display: inline-block;
+  }
+  .page_nation a {
+    display: block;
+    margin: 0 3px;
+    float: left;
+    border: 1px solid #e6e6e6;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 11px;
+    color: black;
+    text-decoration: none;
+    border-radius: 15%;
+    font-weight: 600;
+  }
+  .page_nation a:hover {
+    border: 1px solid red;
+    background-color: red;
+  }
+
+  .boardWriteBtn {
+    margin-top: 70%;
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 55px;
+    border: 1px solid red;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 15%;
+  }
+  .boardWriteBtnAct {
+    margin-top: 70%;
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 55px;
+    border: 1px solid red;
+    font-size: 11px;
+    font-weight: 600;
+    border-radius: 15%;
+  }
+
+  .container-4 #keyInput {
+    width: 150px;
+    height: 30px;
+    background: white;
+    border: 1px solid silver;
+    font-size: 10pt;
+    padding-left: 15px;
+    margin-left: 35%;
+    margin-top: 1%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .container-4 #keyBtn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: red;
+    height: 30px;
+    width: 50px;
+    color: white;
+    opacity: 1;
+    font-size: 10pt;
+    margin-left: -10px;
+    padding-bottom: 2px;
+    border: 1px solid red;
+  }
+  .container-4 #keyBtn i {
+    font-style: normal;
+    font-weight: 900 !important;
+  }
+
+  .picWrap {
+    padding-top: 3%;
+    height: 70%;
+    width: 50%;
+  }
+  .picWrap .item {
+    display: inline-block;
+    /* width: 30%; */
+    padding-right: 3%;
+    padding-bottom: 3%;
+  }
+  .picWrap .item .photoImage img {
+    width: 100%;
+  }
+
+  .picWrapPur {
+    padding-top: 3%;
+    height: 55%;
+    width: 80%;
+  }
+  .picWrapPur .item {
+    display: inline-block;
+    /* width: 30%; */
+    padding-right: 3%;
+    padding-bottom: 3%;
+  }
+  .picWrapPur .item .photoImage img {
+    width: 100%;
+  }
+}

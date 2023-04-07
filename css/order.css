@@ -1,0 +1,531 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.orderBoard {
+  margin-top: 10px;
+  min-height: 500px;
+  width: 115%;
+}
+.conWrap .orderLine {
+  border: 1px solid silver;
+  width: 100%;
+}
+
+.conWrap .orderLine2 {
+  border: 1px solid silver;
+  width: 100%;
+  padding-top: 40px;
+}
+.conWrap .orderLine3 {
+  border: 1px solid silver;
+  width: 100%;
+  padding-top: 60px;
+}
+
+.conWrap .orderHeader1 {
+  padding-left: 3%;
+  font-size: small;
+}
+.conWrap .orderHeader {
+  padding-left: 3%;
+  font-size: small;
+  width: 100%;
+}
+
+.conWrap .orderHeader div {
+  padding-top: 10px;
+  float: left;
+  height: 35px;
+}
+.conWrap .orderHeader1 > div {
+  padding-top: 10px;
+  float: left;
+  height: 35px;
+}
+.conWrap .orderHeader1 > div:first-child,
+.orderHeader > div:first-child {
+  width: 14%;
+}
+.conWrap .orderHeader1 > div:nth-child(2),
+.orderHeader > div:nth-child(2) {
+  width: 8%;
+}
+.conWrap .orderHeader1 > div:nth-child(3),
+.orderHeader > div:nth-child(3) {
+  width: 10%;
+}
+.conWrap .orderHeader1 > div:nth-child(4),
+.orderHeader > div:nth-child(4) {
+  width: 14%;
+}
+.conWrap .orderHeader1 > div:nth-child(5),
+.orderHeader > div:nth-child(5) {
+  width: 7%;
+}
+.conWrap .orderHeader1 > div:nth-child(6),
+.orderHeader > div:nth-child(6) {
+  width: 10%;
+}
+.conWrap .orderHeader1 > div:nth-child(7),
+.orderHeader > div:nth-child(7) {
+  width: 5%;
+}
+.conWrap .orderHeader1 > div:nth-child(8),
+.orderHeader > div:nth-child(8) {
+  width: 8%;
+}
+.conWrap .orderHeader1 > div:nth-child(9),
+.orderHeader > div:nth-child(9) {
+  width: 4%;
+}
+.conWrap .orderHeader1 > div:nth-child(10),
+.orderHeader > div:nth-child(10) {
+  width: 8%;
+}
+.conWrap .orderHeader1 > div:nth-child(11),
+.orderHeader > div:nth-child(11) {
+  width: 5%;
+}
+.conWrap .orderHeader1 > div:last-child,
+.orderHeader > div:last-child {
+  width: 7%;
+}
+
+.conWrap .orderObject1 {
+  margin-top: 20px;
+}
+.conWrap .orderObject div,
+.orderObject1 div,
+.orderObject2 div {
+  padding-left: 2%;
+  padding-top: 10px;
+  float: left;
+  font-size: small;
+  width: 115%;
+}
+.conWrap .orderObject1 > div:first-child,
+.orderObject2 > div:first-child {
+  width: 12%;
+}
+.conWrap .orderObject1 > div:nth-child(2),
+.orderObject2 > div:nth-child(2) {
+  width: 6%;
+  cursor: pointer;
+}
+.conWrap .orderObject1 > div:nth-child(3),
+.orderObject2 > div:nth-child(3) {
+  width: 3%;
+  color: #0a6ecd;
+}
+.conWrap .orderObject1 > div:nth-child(4),
+.orderObject2 > div:nth-child(4) {
+  width: 15%;
+  word-break: break-all;
+}
+.conWrap .orderObject1 > div:nth-child(5),
+.orderObject2 > div:nth-child(5) {
+  width: 5%;
+}
+.conWrap .orderObject1 > div:nth-child(6),
+.orderObject2 > div:nth-child(6) {
+  width: 8%;
+  cursor: pointer;
+  color: blue;
+}
+.conWrap .orderObject1 > div:nth-child(7),
+.orderObject2 > div:nth-child(7) {
+  width: 3%;
+}
+.conWrap .orderObject1 > div:nth-child(8),
+.orderObject2 > div:nth-child(8) {
+  width: 6%;
+}
+.conWrap .orderObject1 > div:nth-child(9),
+.orderObject2 > div:nth-child(9) {
+  width: 1%;
+}
+.conWrap .orderObject1 > div:nth-child(10),
+.orderObject2 > div:nth-child(10) {
+  width: 6%;
+}
+.conWrap .orderObject1 > div:nth-child(11),
+.orderObject2 > div:nth-child(11) {
+  width: 6%;
+}
+.conWrap .orderObject1 > div:last-child,
+.orderObject2 > div:last-child {
+  width: 2%;
+}
+.conWrap .orderObject3 div {
+  padding-left: 1%;
+  padding-top: 10px;
+  float: left;
+  font-size: small;
+  width: 115%;
+}
+.conWrap .orderObject4 div {
+  padding-left: 3%;
+  padding-top: 10px;
+  float: left;
+  font-size: small;
+  width: 115%;
+}
+
+.conWrap .visitSearch div {
+  float: left;
+}
+.conWrap .visitSearch div input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000;
+}
+.conWrap .visitSearch .select1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.conWrap .visitCountList .countList1 {
+  padding-top: 10px;
+  display: block;
+  font-size: 40px;
+  text-align: left;
+  width: 50%;
+  color: darkblue;
+}
+.conWrap .visitBranList .countList1 {
+  padding-top: 200px;
+  display: block;
+  font-size: 40px;
+  text-align: left;
+  width: 50%;
+  color: darkblue;
+}
+
+.conWrap .visitCountList table {
+  width: 70%;
+  border: 2px solid black;
+}
+.conWrap .visitCountList tr {
+  border: 1px solid black;
+}
+.conWrap .visitCountList td {
+  text-align: center;
+}
+
+.conWrap .visitBranList table {
+  width: 70%;
+  border: 2px solid black;
+}
+.conWrap .visitBranList tr {
+  border: 1px solid black;
+}
+.conWrap .visitBranList td {
+  text-align: center;
+}
+
+.conWrap .agentListTitle {
+  width: 100%;
+  font-weight: 800;
+  font-size: 1.5rem;
+  display: block;
+}
+.conWrap .agentListform {
+  display: block;
+  border: 1px solid silver;
+  border-radius: 5%;
+  width: 100%;
+  min-height: 200px;
+  margin-top: 20px;
+  background-color: snow;
+  text-align: center;
+}
+.conWrap .agentListform .agentFormName {
+  display: inline-block;
+  width: 40%;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.conWrap .agentListform .agentFormDetail {
+  display: inline-block;
+  width: 40%;
+}
+.conWrap .agentListform .agentFormBtn {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* 테블릿 세로 */
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .conWrap .orderLine {
+    border: 1px solid silver;
+    width: 40%;
+  }
+
+  .conWrap .orderLine2 {
+    border: 1px solid silver;
+    width: 40%;
+    padding-top: 40px;
+  }
+  .conWrap .orderLine3 {
+    border: 1px solid silver;
+    width: 40%;
+    padding-top: 60px;
+  }
+
+  .conWrap .orderHeader1 {
+    padding-left: 1%;
+    font-size: small;
+  }
+  .conWrap .orderHeader {
+    padding-left: 1%;
+    font-size: small;
+    width: 100%;
+  }
+
+  .conWrap .orderHeader div {
+    padding-top: 10px;
+    float: left;
+    height: 35px;
+  }
+  .conWrap .orderHeader1 > div {
+    padding-top: 10px;
+    float: left;
+    height: 35px;
+  }
+  .conWrap .orderHeader1 > div:first-child,
+  .orderHeader > div:first-child {
+    width: 4%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(2),
+  .orderHeader > div:nth-child(2) {
+    width: 2.5%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(3),
+  .orderHeader > div:nth-child(3) {
+    width: 5%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(4),
+  .orderHeader > div:nth-child(4) {
+    width: 5.5%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(5),
+  .orderHeader > div:nth-child(5) {
+    width: 4%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(6),
+  .orderHeader > div:nth-child(6) {
+    width: 3.5%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(7),
+  .orderHeader > div:nth-child(7) {
+    width: 3.5%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(8),
+  .orderHeader > div:nth-child(8) {
+    width: 2.5%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(9),
+  .orderHeader > div:nth-child(9) {
+    width: 2%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(10),
+  .orderHeader > div:nth-child(10) {
+    width: 3%;
+  }
+  .conWrap .orderHeader1 > div:nth-child(11),
+  .orderHeader > div:nth-child(11) {
+    width: 2%;
+  }
+  .conWrap .orderHeader1 > div:last-child,
+  .orderHeader > div:last-child {
+    width: 5%;
+  }
+
+  .conWrap .orderObject1 {
+    margin-top: 20px;
+  }
+
+  .conWrap .orderObject div,
+  .orderObject1 div,
+  .orderObject2 div {
+    padding-left: 1%;
+    padding-top: 10px;
+    float: left;
+    font-size: small;
+    width: 115%;
+  }
+  .conWrap .orderObject1 > div:first-child,
+  .orderObject2 > div:first-child {
+    width: 3%;
+  }
+  .conWrap .orderObject1 > div:nth-child(2),
+  .orderObject2 > div:nth-child(2) {
+    width: 1.5%;
+    cursor: pointer;
+  }
+  .conWrap .orderObject1 > div:nth-child(3),
+  .orderObject3 > div:nth-child(3) {
+    width: 2%;
+    color: #0a6ecd;
+  }
+  .conWrap .orderObject1 > div:nth-child(4),
+  .orderObject2 > div:nth-child(4) {
+    width: 6%;
+    word-break: break-all;
+  }
+  .conWrap .orderObject1 > div:nth-child(5),
+  .orderObject2 > div:nth-child(5) {
+    width: 3%;
+  }
+  .conWrap .orderObject1 > div:nth-child(6),
+  .orderObject2 > div:nth-child(6) {
+    width: 3%;
+    cursor: pointer;
+    color: blue;
+  }
+  .conWrap .orderObject1 > div:nth-child(7),
+  .orderObject2 > div:nth-child(7) {
+    width: 2%;
+  }
+  .conWrap .orderObject1 > div:nth-child(8),
+  .orderObject2 > div:nth-child(8) {
+    width: 2%;
+  }
+  .conWrap .orderObject1 > div:nth-child(9),
+  .orderObject2 > div:nth-child(9) {
+    width: 0.5%;
+  }
+  .conWrap .orderObject1 > div:nth-child(10),
+  .orderObject2 > div:nth-child(10) {
+    width: 2%;
+  }
+  .conWrap .orderObject1 > div:nth-child(11),
+  .orderObject2 > div:nth-child(11) {
+    width: 1%;
+  }
+  .conWrap .orderObject1 > div:last-child,
+  .orderObject2 > div:last-child {
+    width: 1%;
+  }
+  .conWrap .orderObject3 div {
+    padding-left: 1%;
+    padding-top: 10px;
+    float: left;
+    font-size: small;
+    width: 115%;
+  }
+  .conWrap .orderObject4 div {
+    padding-left: 3%;
+    padding-top: 10px;
+    float: left;
+    font-size: small;
+    width: 115%;
+  }
+
+  .conWrap .visitSearch div {
+    float: left;
+  }
+  .conWrap .visitSearch div input {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #000;
+  }
+  .conWrap .visitSearch .select1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #000;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .conWrap .visitCountList .countList1 {
+    padding-top: 10px;
+    display: block;
+    font-size: 40px;
+    text-align: left;
+    width: 50%;
+    color: darkblue;
+  }
+  .conWrap .visitBranList .countList1 {
+    padding-top: 200px;
+    display: block;
+    font-size: 40px;
+    text-align: left;
+    width: 50%;
+    color: darkblue;
+  }
+
+  .conWrap .visitCountList table {
+    width: 70%;
+    border: 2px solid black;
+  }
+  .conWrap .visitCountList tr {
+    border: 1px solid black;
+  }
+  .conWrap .visitCountList td {
+    text-align: center;
+  }
+
+  .conWrap .visitBranList table {
+    width: 70%;
+    border: 2px solid black;
+  }
+  .conWrap .visitBranList tr {
+    border: 1px solid black;
+  }
+  .conWrap .visitBranList td {
+    text-align: center;
+  }
+
+  .conWrap .agentListTitle {
+    width: 100%;
+    font-weight: 900;
+    font-size: 1.3rem;
+    display: block;
+    padding-top: 3%;
+    padding-left: 2%;
+  }
+  .conWrap .agentListform {
+    display: block;
+    border: 1px solid silver;
+    border-radius: 7%;
+    width: 40%;
+    min-height: 200px;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color: snow;
+    text-align: center;
+  }
+  .conWrap .agentListform .agentFormName {
+    display: inline-block;
+    width: 40%;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .conWrap .agentListform .agentFormDetail {
+    display: inline-block;
+    width: 40%;
+  }
+  .conWrap .agentListform .agentFormBtn {
+    display: inline-block;
+    width: 10%;
+    padding: 2%;
+  }
+}

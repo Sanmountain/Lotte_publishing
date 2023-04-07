@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.conWrapPersonal {
+  float: left;
+  padding: 70px 0 180px 80px;
+  width: calc(100% - 220px);
+  vertical-align: top;
+}
+.conWrapPersonal pre {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow: auto;
+  white-space: pre-line;
+}
